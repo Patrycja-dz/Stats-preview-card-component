@@ -34,7 +34,24 @@ body {
 .left__heading--element {
     color: hsl(277, 64%, 61%);
 }
-
+.left__text{
+    width: 400px;
+    margin: 0 auto;
+   
+}
+.left__paragraph{
+    margin-bottom: 30px;
+    line-height: 1.5;
+    width: 265px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.left__numbers{
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+    width: 345px;
+    
+}
 .right {
     width: 50%;
     background-image: url("/images/image-header-desktop.jpg");
