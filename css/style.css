@@ -11,15 +11,28 @@ html {
 body {
     font-size: 15px;
     margin: 0 auto;
+    background-color: hsl(233, 47%, 7%);
 }
 
 .container {
     display: flex;
-    min-height: 100vh;
+    min-height: 50vh;
+    max-width: 1000px;
+    margin: 100px auto;
 }
 
 .left {
     width: 50%;
+    padding: 40px 40px 40px 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(244, 38%, 16%);
+    color: hsl(0, 0%, 100%);
+
+}
+
+.left__heading--element {
+    color: hsl(277, 64%, 61%);
 }
 
 .right {
